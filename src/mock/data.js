@@ -2,16 +2,16 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Steve Thorpe | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: "Hi I'm",
+  name: 'Steve Thorpe',
+  subtitle: 'The unknown developer',
   cta: '',
 };
 
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: "Let's Talk",
+  email: 'thorpe.steve@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +68,27 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/stevejthorpe',
     },
     {
       id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/St3v3JT',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/steve-j-thorpe/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/stevejthorpe',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
