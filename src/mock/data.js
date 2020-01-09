@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi I'm",
+  title: "Hi, I'm",
   name: 'Steve Thorpe',
   subtitle: 'The unknown developer',
   cta: '',
@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I am a full-stack web developer building on a successful career in qualitative and quantitative social research. Specialising in forced migration and human rights, I have worked across North Africa for various UN agencies and NGOs including UNHCR, OHCHR, IOM, Save the Children and the Danish Refugee Council. ',
+  paragraphTwo:
+    'My work developing a migration data platform for the UN led me to explore web development as a tool for communicating complex ideas to a range of audiences. I am now drawing together my broad skill-set in order to make beautiful tools for data driven story-telling.',
+  paragraphThree:
+    'My tech stack includes: Javascript, Node.js, Express, React, Vue.js, PostgreSQL, Redux, Handlebars, socket.io, jQuery, HTML/CSS and AWS, Heroku and Git.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -89,6 +92,6 @@ export const footerData = {
 };
 
 // Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
-};
+// export const githubButtons = {
+//   isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+// };
