@@ -32,29 +32,32 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'dash Jobs',
+    info: 'dash Jobs in a user centered job search tool and dashbord.',
+    info2:
+      'Stack: Javascript, d3.js, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest',
+    url: '',
+    repo: 'https://github.com/stevejthorpe/dash-jobs', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'Ripple Social Network',
+    info:
+      'A minimalist social network with login/out, user profiles, online users and instant messaging. Created with Javascript, React and Express.',
+    info2:
+      'Stack: Javascript, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
+    title: 'Express Petition',
     info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info2: 'Stack: Javascript, Vue.js, BasicAuth, PostgreSQL',
+    url: 'https://sa-petition.herokuapp.com',
+    repo: 'https://github.com/stevejthorpe', // if no repo, the button will not show up
   },
 ];
 
