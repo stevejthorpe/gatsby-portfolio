@@ -47,8 +47,8 @@ export const projectsData = [
       'A minimalist social network with login/out, user profiles, online users and instant messaging. Created with Javascript, React and Express.',
     info2:
       'Stack: Javascript, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://ripple-social-network.herokuapp.com',
+    repo: 'https://github.com/stevejthorpe/ripple-social-network', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
