@@ -36,7 +36,7 @@ export const projectsData = [
     info:
       'dash-Jobs is a user centered job search tool and dashbord. Users can compose cover letters, track application progress and drill down into each application profile using an interactive Sankey graph. Each application profile includes data such as average salary from APIs such as Glassdoor.',
     info2:
-      'Stack: Javascript, d3.js, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest',
+      'Stack: Javascript, d3.js, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest, AWS, S3',
     url: 'https://dash-jobs.herokuapp.com',
     repo: 'https://github.com/stevejthorpe/dash-jobs', // if no repo, the button will not show up
   },
@@ -47,7 +47,7 @@ export const projectsData = [
     info:
       'A peaceful social network with login/out, user profiles, online users and instant messaging. Users can upload profile images and instant message their friend network.',
     info2:
-      'Stack: Javascript, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest',
+      'Stack: Javascript, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest, AWS, S3',
     url: 'https://ripple-social-network.herokuapp.com',
     repo: 'https://github.com/stevejthorpe/ripple-social-network', // if no repo, the button will not show up
   },
@@ -57,7 +57,7 @@ export const projectsData = [
     title: 'Express Petition',
     info:
       'A petition app made in Vue. Users can register an account, login and sign the petition using their trackpad or mouse. Once singed, users can see other signers and filter by location.',
-    info2: 'Stack: Javascript, Vue.js, BasicAuth, PostgreSQL',
+    info2: 'Stack: Javascript, Vue.js, BasicAuth, PostgreSQL, AWS, S3',
     url: 'https://sa-petition.herokuapp.com',
     repo: 'https://github.com/stevejthorpe', // if no repo, the button will not show up
   },
