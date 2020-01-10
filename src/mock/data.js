@@ -36,7 +36,7 @@ export const projectsData = [
     info: 'dash Jobs in a user centered job search tool and dashbord.',
     info2:
       'Stack: Javascript, d3.js, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest',
-    url: '',
+    url: 'https://dash-jobs.herokuapp.com',
     repo: 'https://github.com/stevejthorpe/dash-jobs', // if no repo, the button will not show up
   },
   {
