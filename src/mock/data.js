@@ -67,7 +67,7 @@ export const projectsData = [
     title: 'Bug Tracker',
     info: 'A simple bug tracker build in pure JavaScript.',
     info2: 'Stack: Javascript, jQuery, Bootstrap4',
-    // url: 'https://sa-petition.herokuapp.com',
+    url: 'https://sa-petition.herokuapp.com',
     repo: 'https://github.com/stevejthorpe/bug-tracker', // if no repo, the button will not show up
   },
 ];
