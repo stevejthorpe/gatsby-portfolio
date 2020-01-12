@@ -1,11 +1,12 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
+import Typist from 'react-typist';
 import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -28,7 +29,15 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {/* {subtitle || "I'm the Unknown Developer."} */}
+            <Typist cursor={{ hideWhenDone: true }}>
+              <Typist.Delay ms={2000} />
+              A researcher
+              <Typist.Backspace count={10} delay={1000} />
+              writer
+              <Typist.Backspace count={6} delay={1000} />
+              full-stack web developer
+            </Typist>
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
