@@ -27,20 +27,19 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             <Typist cursor={{ hideWhenDone: true }}>
-              {title || 'Hi, my name is'}{' '}
-              <span className="text-color-main">{name || 'Your Name'}</span>
+              {title || "Hi, I'm"} <span className="text-color-main">{name || 'Steve Thorpe'}</span>
               <br />
               {/* {subtitle || "I'm the Unknown Developer."} */}
-              <Typist.Delay ms={3000} />
+              <Typist.Delay ms={700} />
               A researcher
-              <Typist.Backspace count={10} delay={1000} />
+              <Typist.Backspace count={10} delay={800} />
               writer
-              <Typist.Backspace count={6} delay={1000} />
+              <Typist.Backspace count={6} delay={800} />
               full-stack web developer
             </Typist>
           </h1>
         </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={10000} distance="30px">
           <p className="hero-cta">
             <a className="cta-btn cta-btn--hero" href="#about">
               {cta || 'Know more'}
