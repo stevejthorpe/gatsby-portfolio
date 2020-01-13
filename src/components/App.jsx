@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ReactGA from 'react-ga';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
@@ -23,6 +24,9 @@ function App() {
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
+
+  ReactGA.initialize('UA-155973189-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
