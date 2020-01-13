@@ -26,7 +26,7 @@ function App() {
   }, []);
 
   ReactGA.initialize('UA-155973189-1');
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.pageview('/');
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
