@@ -24,7 +24,7 @@ export const aboutData = {
     'My work developing a migration data platform for the UN led me to explore web development as a tool for communicating complex ideas to a range of audiences. I am now drawing together my broad skill-set in order to make beautiful tools for data driven story-telling.',
   paragraphThree:
     'My tech stack includes: Javascript, Node.js, Express, React, Vue.js, PostgreSQL, Redux, Handlebars, socket.io, jQuery, HTML/CSS and AWS, Heroku and Git.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.dropbox.com/s/nbbsit5m0wbquhl/thorpe_cv.pdf?dl=0', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -47,7 +47,7 @@ export const projectsData = [
     info:
       'A peaceful social network with login/out, user profiles, online users and instant messaging. Users can upload profile images and instant message their friend network.',
     info2:
-      'Stack: Javascript, Express, React, React-Redux, React-Router, React-Hooks, Node.js, PostgreSQL, Jest, AWS, S3',
+      'Stack: Javascript, Express, React, React-Redux, React-Router, React-Hooks, Node.js, Socket.io, PostgreSQL, Jest, AWS, S3, Materual-UI',
     url: 'https://ripple-social-network.herokuapp.com',
     repo: 'https://github.com/stevejthorpe/ripple-social-network', // if no repo, the button will not show up
   },
