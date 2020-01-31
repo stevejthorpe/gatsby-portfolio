@@ -42,7 +42,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'ripple.jpg',
     title: 'Ripple Social Network',
     info:
       'A peaceful social network with login/out, user profiles, online users and instant messaging. Users can upload profile images and instant message their friend network.',
